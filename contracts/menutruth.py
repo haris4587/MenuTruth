@@ -55,7 +55,7 @@ class MenuTruth(gl.Contract):
 
     def _staff(self):
         sender = str(gl.message.sender_address)
-        if sender != self.owner and not self.chefs.get(sender, False):
+        if sender != self.owner and not self.chefs.get(sender.lower(), False):
             raise ValueError("Authorized staff only")
 
     @gl.public.write

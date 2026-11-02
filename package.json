@@ -1,0 +1,18 @@
+{
+  "name": "menutruth",
+  "version": "1.0.0",
+  "description": "MenuTruth restaurant menu integrity verification",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "python -m unittest discover -s tests -v && node --test tests/*.test.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "esbuild": "0.28.2",
+    "genlayer-js": "1.1.8"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+.openai/exec-profile
+.openai/.git*
+__pycache__/
+*.tar.gz

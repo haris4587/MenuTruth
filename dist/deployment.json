@@ -1,0 +1,16 @@
+{
+  "project": "MenuTruth",
+  "chainId": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "address": "0x9Bb33b418E0ab1472421f1e9749Aab4131DB784E",
+  "deploymentHash": "0x818f667b9468f87866446005f9028942295f814ea9d3da5bfa03cd6e3cef4235",
+  "verified": true,
+  "info": {
+    "change_count": "0",
+    "dish_count": "0",
+    "owner": "0x2Ee9cf48c4A77bD8Ce4d5a2E34624aCF1c87b493",
+    "policy_hash": "3ff2e735fb7eea6f019ad60da220a6446ae517541e714f264928f5fc198142ff",
+    "project": "MenuTruth",
+    "version": "1.0.0"
+  }
+}

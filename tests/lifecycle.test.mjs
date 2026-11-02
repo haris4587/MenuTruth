@@ -1,0 +1,6 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {classify} from '../src/lifecycle.mjs';
+for(const status of ['PENDING','PROPOSING','COMMITTING','REVEALING','ACCEPTED','FINALIZED','UNDETERMINED','CANCELED','LEADER_TIMEOUT'])test(status,()=>assert.equal(classify({status}).phase,['ACCEPTED'].includes(status)?'accepted':status==='FINALIZED'?'finalized':['UNDETERMINED','CANCELED','LEADER_TIMEOUT'].includes(status)?'failed':'pending'));
+test('accepted reverted transaction is not successful',()=>assert.equal(classify({status:'ACCEPTED',consensus_data:{leader_receipt:{execution_result:'ERROR'}}}).phase,'failed'));
+test('SDK numeric finalized with receipt list',()=>assert.equal(classify({status:7,result:6,consensus_data:{leader_receipt:[{execution_result:'SUCCESS'}]}}).phase,'finalized'));
+test('SDK finalized revert',()=>assert.equal(classify({status:7,consensus_data:{leader_receipt:[{execution_result:'ERROR'}]}}).phase,'failed'));
+test('quorum-cancelled extra receipt does not override successful leader',()=>assert.equal(classify({status:7,result:6,consensus_data:{leader_receipt:[{mode:'leader',execution_result:'SUCCESS'},{mode:'validator',execution_result:'ERROR',genvm_result:{error_code:'CONSENSUS_VALIDATOR_QUORUM_REACHED'}}]}}).phase,'finalized'));
