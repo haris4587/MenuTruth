@@ -11,6 +11,10 @@ MenuTruth is a restaurant recipe-change ledger powered by a real GenLayer Intell
 - Machine-readable deployment: [dist/deployment.json](dist/deployment.json)
 - Verification: [evidence/live-verification.json](evidence/live-verification.json)
 
+![MenuTruth live website](docs/screenshot-home.jpg)
+
+[Live ledger screenshot](docs/screenshot-ledger.jpg) · [Review evidence screenshot](docs/screenshot-review.jpg)
+
 ## The trust problem
 
 A chef substitutes dairy cream for oat cream. The menu still says “vegan,” and front-of-house staff still have the old ingredient list. A normal recipe spreadsheet can silently drift or be overwritten. MenuTruth preserves the original claims and the submitted recipe change, obtains independent semantic review through GenLayer consensus, and records an attributable staff response. The trusted object is the record and the agreed consistency finding, not the truth of an unobserved kitchen.
@@ -76,6 +80,8 @@ python -m http.server 8080 --directory dist
 Open `http://localhost:8080`. No API keys or environment secrets are required for public reads. `dist/deployment.json` selects the verified deployment. Dependency versions and lockfile are committed; the browser SDK is bundled locally. `node scripts/verify-live.mjs` performs read-only verification of the demonstration state and its six finalized receipts.
 
 ## Validation status
+
+GitHub Actions passed: https://github.com/haris4587/MenuTruth/actions/runs/41433948499 . The deployed website was opened publicly and live records and review details were inspected in-browser.
 
 - 18 Python contract-logic tests: permissions, input limits, immutable commitments, independent assessment calls, disagreement, output schema, exact quote grounding, conservative precedence, acknowledgement order and replay protection.
 - 13 JavaScript lifecycle tests: pending and terminal statuses, numeric SDK statuses, receipt arrays and accepted execution failures.

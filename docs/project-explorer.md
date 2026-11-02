@@ -54,3 +54,11 @@ Contract: https://explorer-studio.genlayer.com/address/0x9Bb33b418E0ab1472421f1e
 This is a working hosted development sandbox demonstration, not mainnet food-safety infrastructure. Restaurant/supplier evidence is self-attested. No physical ingredient verification, cross-contact certification, laboratory testing, legal compliance determination, real restaurant adoption, or automated supplier-authenticity checks are claimed. No social posts or videos have been published on the user’s behalf.
 
 Potential next development: supplier-signed evidence, bounded commit-pinned document retrieval, jurisdiction-specific review policies, corrections linked across recipe versions and multi-location restaurant workspaces.
+
+## Supporting visuals
+
+- Logo PNG: [menutruth-logo.png](menutruth-logo.png), 512×512.
+- [Live home screenshot](screenshot-home.jpg).
+- [Live ledger screenshot](screenshot-ledger.jpg).
+- [Review evidence screenshot](screenshot-review.jpg).
+- [Passing CI run](https://github.com/haris4587/MenuTruth/actions/runs/41433948499).

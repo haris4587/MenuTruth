@@ -24,3 +24,11 @@ The Studio handoff and receipt tracker provide the built-in-account workflow wit
 Run `npm ci`, `npm test`, `npm run build`, then `node scripts/verify-live.mjs`. The latter makes read-only calls and records actual current state and transaction receipts; hosted Studio can reset, so a later failure must be reported rather than silently replacing addresses or evidence.
 
 The Studio upgrade operation has FINALIZED status without a leader execution receipt. The verifier separately compares the currently deployed source with the repository source. Other five operations have successful leader receipts. The SDK may include cancelled validator receipts in `leader_receipt`; the lifecycle classifier selects the actual leader and has a regression test for cancellation after quorum.
+
+## Public delivery verification
+
+- Public site deployment succeeded: https://menutruth.mohamedansaf222.chatgpt.site
+- Public browser confirmed live contract state and opened the actual review record. Screenshots: `screenshot-home.jpg`, `screenshot-ledger.jpg`, `screenshot-review.jpg`.
+- Github source tree `235b2befdbd7ff829f3db3c04b24448ac3835f70` exactly matched the deployed source tree before these documentation-only evidence additions.
+- GitHub Actions run 41433948499 completed successfully: https://github.com/haris4587/MenuTruth/actions/runs/41433948499 .
+- Dashboard tracker fetched the real AI review receipt and displayed FINALIZED.
