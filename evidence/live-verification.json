@@ -74,7 +74,7 @@
         "0x63d72fE364368491E62a42B9C73c317Ce1ca8434": "agree",
         "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186": "agree"
       },
-      "url": "https://explorer-studio.genlayer.com/transactions/0x818f667b9468f87866446005f9028942295f814ea9d3da5bfa03cd6e3cef4235"
+      "url": "https://explorer-studio.genlayer.com/tx/0x818f667b9468f87866446005f9028942295f814ea9d3da5bfa03cd6e3cef4235"
     },
     {
       "name": "register_dish",
@@ -91,7 +91,7 @@
         "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186": "agree",
         "0xcab45E3fe9cC9592B5C378E47734E022b7Df80c9": "agree"
       },
-      "url": "https://explorer-studio.genlayer.com/transactions/0xb1d501c3c8571fd5b734b95930e63f5798a97006a7c3aed648ef6001fd597621"
+      "url": "https://explorer-studio.genlayer.com/tx/0xb1d501c3c8571fd5b734b95930e63f5798a97006a7c3aed648ef6001fd597621"
     },
     {
       "name": "submit_change",
@@ -108,7 +108,7 @@
         "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "idle",
         "0xb04cdDC4a6Ff6A0aDF715cfe00Fa307b901cebD4": "agree"
       },
-      "url": "https://explorer-studio.genlayer.com/transactions/0xfe1055971818aa15670552b970832029665dd59fb78fe8e35b20759bd24600e4"
+      "url": "https://explorer-studio.genlayer.com/tx/0xfe1055971818aa15670552b970832029665dd59fb78fe8e35b20759bd24600e4"
     },
     {
       "name": "staff_case_fix",
@@ -116,7 +116,7 @@
       "status": "FINALIZED",
       "execution": [],
       "note": "Studio sandbox upgrade has no leader receipt; live source equality verified separately",
-      "url": "https://explorer-studio.genlayer.com/transactions/0x3eda40e9676516297c2e524fd4edb05d02c2b32ef3a4aaec5b351de69e5fa146"
+      "url": "https://explorer-studio.genlayer.com/tx/0x3eda40e9676516297c2e524fd4edb05d02c2b32ef3a4aaec5b351de69e5fa146"
     },
     {
       "name": "review_change",
@@ -133,7 +133,7 @@
         "0xCe0B66448435cA53665C954705Abd753515594Cf": "idle",
         "0xF7D08d12dB37D3e02D1833b5cB7e56B07F114186": "disagree"
       },
-      "url": "https://explorer-studio.genlayer.com/transactions/0x28c8ec7e5db636359f7c5a77c0c7c42359544b89b00d55ca052414f16c2fd9ed"
+      "url": "https://explorer-studio.genlayer.com/tx/0x28c8ec7e5db636359f7c5a77c0c7c42359544b89b00d55ca052414f16c2fd9ed"
     },
     {
       "name": "acknowledge",
@@ -150,7 +150,7 @@
         "0x4868b172ddEBC18b5219aaCeAB77ae0Df330c83A": "idle",
         "0xB4EE99165ffe987E64B7b72e45a753309c501eef": "agree"
       },
-      "url": "https://explorer-studio.genlayer.com/transactions/0x0fbfada543730a9f6c29458d9317c72cec1cb596548cee4f66940bc01e90f27e"
+      "url": "https://explorer-studio.genlayer.com/tx/0x0fbfada543730a9f6c29458d9317c72cec1cb596548cee4f66940bc01e90f27e"
     }
   ]
 }

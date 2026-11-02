@@ -42,12 +42,12 @@ Network: GenLayer Studionet, 61999, https://studio.genlayer.com/api
 
 Contract: https://explorer-studio.genlayer.com/address/0x9Bb33b418E0ab1472421f1e9749Aab4131DB784E
 
-- Deployment: https://explorer-studio.genlayer.com/transactions/0x818f667b9468f87866446005f9028942295f814ea9d3da5bfa03cd6e3cef4235
-- Register: https://explorer-studio.genlayer.com/transactions/0xb1d501c3c8571fd5b734b95930e63f5798a97006a7c3aed648ef6001fd597621
-- Substitute: https://explorer-studio.genlayer.com/transactions/0xfe1055971818aa15670552b970832029665dd59fb78fe8e35b20759bd24600e4
-- Staff address fix upgrade: https://explorer-studio.genlayer.com/transactions/0x3eda40e9676516297c2e524fd4edb05d02c2b32ef3a4aaec5b351de69e5fa146
-- AI review: https://explorer-studio.genlayer.com/transactions/0x28c8ec7e5db636359f7c5a77c0c7c42359544b89b00d55ca052414f16c2fd9ed
-- Acknowledge: https://explorer-studio.genlayer.com/transactions/0x0fbfada543730a9f6c29458d9317c72cec1cb596548cee4f66940bc01e90f27e
+- Deployment: https://explorer-studio.genlayer.com/tx/0x818f667b9468f87866446005f9028942295f814ea9d3da5bfa03cd6e3cef4235
+- Register: https://explorer-studio.genlayer.com/tx/0xb1d501c3c8571fd5b734b95930e63f5798a97006a7c3aed648ef6001fd597621
+- Substitute: https://explorer-studio.genlayer.com/tx/0xfe1055971818aa15670552b970832029665dd59fb78fe8e35b20759bd24600e4
+- Staff address fix upgrade: https://explorer-studio.genlayer.com/tx/0x3eda40e9676516297c2e524fd4edb05d02c2b32ef3a4aaec5b351de69e5fa146
+- AI review: https://explorer-studio.genlayer.com/tx/0x28c8ec7e5db636359f7c5a77c0c7c42359544b89b00d55ca052414f16c2fd9ed
+- Acknowledge: https://explorer-studio.genlayer.com/tx/0x0fbfada543730a9f6c29458d9317c72cec1cb596548cee4f66940bc01e90f27e
 
 ## Honest scope
 
